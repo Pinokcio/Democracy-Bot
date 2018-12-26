@@ -32,3 +32,5 @@
     * 인덱스 값에 해당하는 ID의 사다리타기 결과 출력
   * !사다리결과
     * 사다리타기의 결과만을 간단하게 출력
+
+#토큰 NTI3NDM5OTU5Nzg3OTYyMzY4.DwTweg.-3sKbwbqJ8hkRRa14XfWTC3mFtA
