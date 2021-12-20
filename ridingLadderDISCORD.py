@@ -13,6 +13,7 @@ row = 0
 arr = []
 arr_int = []
 flag = 0
+token = ""
 def drawing(up, low):
     global col
     global row
@@ -154,4 +155,4 @@ async def on_message(message):
          embed = discord.Embed(description = "- 간단한 사다타기 기능을 가진 봇\n- 사다리를 텍스트 형식으로 출력\n- 명령어\n　- !사다리설정 (0 or 1) (ID1)/(ID2)/.../(IDn)\n　　- 0일 시 사다리타기 윗 줄 설정\n　　- 1일 시 사다리 타기 아랫 줄 설정\n　　- 윗 줄과 아랫 줄의 개수가 다를 경우 진행x\n　- !설정완료\n　　- 이 명령어를 입력할 때마다 새로운 사다리를 그림\n　- !사다리진행 (1~n)\n　　- 인덱스 값에 해당하는 ID의 사다리타기 결과 출력\n　- !사다리결과\n　　- 사다리타기의 모든 결과를 간단하게 출력")
          await client.send_message(message.channel, embed = embed)
         
-client.run('NTI3NDY0OTc4ODgyNDk0NDY0.DwUIqw.lkxPaNA8oFlDtBR7hRr8vDVb5A4')
+client.run(token)
